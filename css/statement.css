@@ -1,0 +1,118 @@
+.statement-model {
+	position: fixed;
+	bottom: 2vh;
+	right: 100px;
+	z-index: 998;
+	/*animation: popupModel 0.5s ease-out;*/
+	cursor: pointer;
+	transition: all 0.8s;
+	display: none;
+
+}
+.satePopupModelMove {
+	display: block;
+	animation: popupModelMove 1s ease-out;
+}
+.statement-model-icon {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	bottom: 14vh;
+	right: 40px;
+	z-index: 99;
+	background-color: #666;
+	background-image: url("../img/statement_low.png");
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.statement-model-icon:hover {
+	background-color: #F39518;
+}
+.statement-model-close {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.2);
+	background-image: url("../img/btn_esc.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.statement-content {
+	width: 280px;
+	height: 280px;
+	background-image: url("../img/statement/statement_model.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.statement-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(50,50,50,0.6);
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	display: none;
+}
+.statement-model-close:hover {
+	background-color: rgba(255,255,255,0.8);
+	cursor: pointer;
+}
+.statement-img-content {
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid transparent;
+	padding: 10vh 0 10vh 0;
+	position: relative;
+	z-index: 9;
+}
+.statement-img-content img {
+	width: 100%;
+}
+.statement-close {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0);
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.model-show{
+    display: block !important;
+}
+.model-colse-state {
+    bottom: -400px !important;
+}
+@keyframes popupModel{
+	0% {bottom: -400px}
+	100% {bottom: 10px}
+}
+@keyframes popupModelMove{
+	0% {
+		opacity: 0;
+		bottom: -20vh;
+	}
+	100% {
+		opacity: 1;
+		bottom: 2vh;
+	}
+}
+
+@media only screen and (max-width: 1460px){
+	.statement-content {
+		width: 260px;
+		height: 260px;
+	}
+}
+

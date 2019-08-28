@@ -1,2 +1,0 @@
-# xiaoming
-hello world

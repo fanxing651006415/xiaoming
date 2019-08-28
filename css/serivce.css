@@ -1,0 +1,398 @@
+
+nav{
+    height: 0.9rem;
+    width: 100%;
+    font-size:14px;
+    color: #29222E;
+    letter-spacing: 0;
+    line-height:  0.375rem;
+    position: absolute;
+    background-color: white;
+}
+nav .nav-logo{
+    height: 0.3rem;
+    width: 20%;
+    line-height: 0.3rem;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0.375rem;
+    font-size: 0.3rem;
+    color: #F39518 ;
+}
+.nav-logo img{
+    height: 100%;
+    margin-right: 0.11rem;
+}
+
+nav ul{
+    float: right;
+    height:  0.9rem;
+    line-height: 0.9rem;
+    width: 5.4rem;
+    min-width:375px ;
+}
+nav ul li{
+    float: left;
+    margin-left: 0.6rem;
+}
+a{
+    color:#29222E;
+}
+a:hover{
+    color:#F39518 !important;
+}
+
+section{
+    padding-top:0.9rem;
+    background: #F8F8F8;
+}
+.index{
+    height: 9rem;
+    text-align: center;
+    background-image: url("../img/banner/index_b_1920_4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5.6rem;
+}
+
+
+.title{
+    font-size: 0.45rem;
+    color: #F39518;
+    letter-spacing: 0;
+    height: 100%;
+    width: 100%;
+    line-height:1.75rem;
+    position: absolute;
+}
+
+.content-text{
+    font-size: 14px;
+    color: #29222E;
+    letter-spacing: 0;
+    line-height: 0.375rem;
+}
+.content-text-border{
+    padding-left: 0.35rem;
+    border-left: 2px solid #F39518;
+}
+
+.title-bg-text{
+    font-size: 1.25rem;
+    color: #F4F4F4;
+    letter-spacing: 0;
+    height: 1.75rem;
+    width: 1.55rem;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.content-right{
+    width: 9.25rem;
+}
+.link{
+    background: #D8D8D8;
+    border: 1px solid #F8F8F8;
+    border-radius: 1px;
+    width: 17.35rem;
+    margin: auto;
+}
+
+
+.second-title{
+    font-size: 18px;
+    color: #F39518;
+    letter-spacing: 0;
+    height: 1.28rem;
+    padding-top: 0.59rem;
+}
+
+.second-title img{
+    height: 0.25rem;
+    margin-top: 0.05rem;
+}
+.left{
+    float: left;
+    width:47.65% ;
+    padding-left: 3.337rem;
+    padding-top: 0.625rem;
+}
+.right{
+    float: right;
+    width:52.34% ;
+    padding-top: 0.625rem;
+}
+.group{
+    width: 100%;
+    display:inline-block !important;
+}
+.group-margin{
+    margin-bottom:0.75rem ;
+}
+.content-text-item{
+    float: left;
+   min-height: 1rem;
+    margin-right: 0.45rem;
+}
+
+/**
+电商内容运营
+ */
+.retailer-title{
+    position: relative;
+    height: 1.75rem;
+    width: 3.08rem;
+}
+/**
+社交媒体全域营销
+
+ */
+.intercourse-title{
+    position: relative;
+    height: 1.75rem;
+    width: 3.83rem;
+}
+
+/*
+    全案数字营销策划
+
+ */
+.plan-item{
+    width: 48%;
+    background: #F8F8F8;
+    border-radius: 3px;
+    margin-bottom: 0.375rem;
+    padding-left: 0.225rem;
+    font-size: 0.175rem;
+}
+.plan-item-left{
+    float: left;
+}
+.plan-item-right{
+    float: right;
+}
+.plan-item-title{
+    font-size:0.225rem;
+    color: #F39518;
+    letter-spacing: 0;
+    height: 0.85rem;
+    padding-top: 0.225rem;
+
+}
+
+/**
+营销技术化
+ */
+.technology-title{
+    width: 2.25rem;
+    position: relative;
+    height: 1.81rem;
+}
+.content-text-title{
+    font-size: 20px;
+    color:  #F39518;
+    letter-spacing: 0;
+}
+
+
+/*
+    联系我们
+ */
+.connect{
+    height: 3.75rem;
+    padding: 1.275rem 3.325rem 0 3.325rem;
+    background-color: #343434;
+}
+.connect-logo{
+    float: left;
+    width: 1.488rem;
+    height: 1.213rem;
+}
+.connect-logo img{
+    height: 100%;
+    width: 100%;
+}
+.connect-text{
+    float: left;
+    width: 8.913rem;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 1.2rem;
+}
+.connect-text-1,.connect-text-2{
+    float: left;
+}
+.connect-icon-1{
+    width: 6.6rem;
+    height: 0.375rem;
+    margin-bottom: 0.45rem;
+}
+.connect-text-3{
+    float: right;
+}
+.connect-icon-1{
+    width: 0.25rem;
+    height: 0.313rem;
+    margin-right: 0.2rem;
+    margin-top: 0.07rem;
+}
+.connect-icon-2{
+    width: 0.275rem;
+    height: 0.275rem;
+    margin-right: 0.2rem;
+    margin-top: 0.07rem;
+}
+.connect-icon-3{
+    width: 0.3rem;
+    height: 0.25rem;
+    margin-right: 0.15rem;
+    margin-top: 0.07rem;
+}
+.connect-code{
+    float: right;
+}
+.connect-code img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+
+/*
+ 页脚
+ */
+footer{
+    height: 0.75rem;
+    background-color: #343434;
+    line-height: 0.75rem;
+    font-size: 12px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+/**
+响应式
+ */
+@media only screen and (max-width: 1460px){
+    .index{
+        height: 640px;
+        width: 100%;
+        background-image: url("../img/banner/service_b_1440_1.jpg");
+    }
+    .retailer,.intercourse,.plan,.technology{
+        padding: 0 15.2778% 0 15.2778%;
+    }
+    .left,.right{
+        width: 100%;
+        padding-left: 0;
+
+    }
+    .title{
+        font-size:36px ;
+    }
+    .plan-item{
+        font-size: 14px;
+    }
+    .plan-item-title {
+        font-size: 18px;
+    }
+    .plan-item-context{
+        padding-left: 10px;
+    }
+    .title-bg-text{
+        font-size: 100px;
+        width: 124px;
+    }
+    .content-text{
+        line-height: 30px;
+    }
+    .content-right{
+        width:100%;
+    }
+    .connect{
+        height: 700px;
+    }
+    .retailer-title{
+        width: 240px;
+    }
+    .intercourse-title{
+        width: 302px;
+    }
+    .technology-title{
+        width: 185px;
+    }
+
+    .title-parent,.title-parent div{
+        height: 140px!important;
+        line-height: 140px!important;
+    }
+
+    .connect{
+        height: 580px;
+        padding: 99px 0 0 0;
+    }
+    .connect-logo,.connect-text,.connect-code{
+        width: 100%;
+        text-align: center;
+
+    }
+    .connect-text{
+        margin-bottom: 48.2px;
+        height: 84px;
+        padding: 0;
+    }
+    .connect-icon-1{
+        height: 25px;
+        width: 20px;
+    }
+    .connect-icon-2{
+        height: 22.6px;
+        width: 22px;
+    }
+
+    .connect-icon-3{
+        height: 20px;
+        width: 24px;
+    }
+    .connect-logo{
+        height: 142px;
+    }
+    .connect-logo img{
+        width: auto;
+        height: 82px;
+    }
+    .connect-text-1,.connect-text-2,.connect-text-3{
+        height: 30px;
+        width: 100%;
+    }
+    .connect-text-1{
+        width: 60%;
+        text-align: right;
+        margin-bottom: 24px;
+    }
+    .connect-text-3{
+        width: 40%;
+        text-align: left;
+        padding-left: 0.425rem;
+    }
+    .connect-code img{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 1461px) {
+    .connect-text{
+        width: 63%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .connect-text{
+        width: 9.9rem;
+    }
+}

@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="尊艾"/>
+    <meta name="description" itemprop="description" content="尊艾"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>广州尊艾信息科技有限公司</title>
+    <link href="css/common.css?v=201809301800" rel="stylesheet" type="text/css">
+    <link href="css/index.css?v=201809301800" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css?v=201809301800">
+    <link rel="stylesheet" type="text/css" href="css/statement.css?v=201809301800">
+</head>
+<body>
+<!--模态窗-->
+<div class="model">
+    <div class="model-bg" onclick="closeModel(0)"></div>
+    <div class="model-body">
+        <div class="mobile">
+            <img src="img/example/ex_1_m.jpg" class="mobile-img">
+        </div>
+        <div class="model-content">
+            <div class="model-content-title">砍价抢0元机票</div>
+            <div class="model-content-title2">中国南方航空会员日助力类活动</div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">3天内活动PV达</div>
+                <div class="model-content-item-text2">200万+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">UV达</div>
+                <div class="model-content-item-text2">50万+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">活动新增粉丝</div>
+                <div class="model-content-item-text2">20000+</div>
+            </div>
+        </div>
+        <div class="model-close" onclick="closeModel(0)">
+            <img src="img/btn_esc.png">
+        </div>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(1)"></div>
+    <div class="model-body">
+        <div class="mobile">
+            <img src="img/example/ex_2_m.jpg" class="mobile-img">
+        </div>
+        <div class="model-content">
+            <div class="model-content-title">电影《魔兽》</div>
+            <div class="model-content-title2">电影魔兽新媒体运营</div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">3个月获取粉丝量</div>
+                <div class="model-content-item-text2">30万+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">页面点击数</div>
+                <div class="model-content-item-text2">1215万+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">朋友圈分享数</div>
+                <div class="model-content-item-text2">353万+</div>
+            </div>
+        </div>
+        <div class="model-close" onclick="closeModel(1)">
+            <img src="img/btn_esc.png">
+        </div>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(2, 'VRView')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(2,'VRView')"><img src="img/btn_esc.png"></div>
+        <iframe frameborder="0" class="video-iframe VRView" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(3, 'YQSodaWater')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(3,'YQSodaWater')"><img src="img/btn_esc.png"></div>
+        <iframe frameborder="0" class="video-iframe YQSodaWater" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(4, 'KMDRadiator')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(4,'KMDRadiator')">
+            <img src="img/btn_esc.png">
+        </div>
+        <iframe frameborder="0" class="video-iframe KMDRadiator" allowfullscreen></iframe>
+    </div>
+</div>
+<!---->
+<div class="model">
+    <div class="model-bg" onclick="closeModel(5, 'cocaCola')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(5, 'cocaCola')">
+            <img src="img/btn_esc.png">
+        </div>
+        <video class="video-iframe" src="./video/cocaCola.mp4" controls></video>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(6, 'BMW')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(6, 'BMW')">
+            <img src="img/btn_esc.png">
+        </div>
+        <video src="./video/BMW.mp4" class="video-iframe BMW"  controls></video>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(7, 'Pampers')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(7, 'Pampers')">
+            <img src="img/btn_esc.png">
+        </div>
+        <video src="./video/Pampers.mp4" class="video-iframe Pampers" controls></video>
+    </div>
+</div>
+<div class="model">
+    <div class="model-bg" onclick="closeModel(8, 'YLMilk')"></div>
+    <div class="model-body model-video">
+        <div class="model-close" onclick="closeModel(8, 'YLMilk')">
+            <img src="img/btn_esc.png">
+        </div>
+        <video src="./video/YLMilk.mp4" class="video-iframe" controls></video>
+    </div>
+</div>
+<!---->
+<div class="model">
+    <div class="model-bg" onclick="closeModel(9)"></div>
+    <div class="model-body">
+        <div class="mobile">
+            <img src="img/example/ex_11_m.png" class="mobile-img">
+        </div>
+        <div class="model-content" style="padding-top: 64px">
+            <div class="model-content-title">格力家电趴</div>
+            <div class="model-content-title2">格力冲刺618导购型PGC直播活动</div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">总曝光量</div>
+                <div class="model-content-item-text2">75w+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">粉丝互动点赞量</div>
+                <div class="model-content-item-text2">450w+</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">成交金额</div>
+                <div class="model-content-item-text2">56w</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">粉丝加购</div>
+                <div class="model-content-item-text2">10w件</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">粉丝增长</div>
+                <div class="model-content-item-text2">3.7w人次</div>
+            </div>
+        </div>
+        <div class="model-close" onclick="closeModel(9)">
+            <img src="img/btn_esc.png">
+        </div>
+    </div>
+</div>
+
+<div class="model">
+    <div class="model-bg" onclick="closeModel(10)"></div>
+    <div class="model-body">
+        <div class="mobile">
+            <img src="img/example/ex_12_m.png" class="mobile-img">
+        </div>
+        <div class="model-content">
+            <div class="model-content-title">欧派天猫超品日</div>
+            <div class="model-content-title2">欧派天猫618超级品牌类活动</div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">日销售额</div>
+                <div class="model-content-item-text2">1.9亿</div>
+            </div>
+            <div class="model-content-item">
+                <div class="model-content-item-text1">内容引流进店量</div>
+                <div class="model-content-item-text2">9.6w+</div>
+            </div>
+        </div>
+        <div class="model-close" onclick="closeModel(10)">
+            <img src="img/btn_esc.png">
+        </div>
+    </div>
+</div>
+<!--导航-->
+<nav>
+    <div class="nav-logo"><img src="img/ico_logo%20no%20text.png">尊艾信息</div>
+    <div>
+        <ul>
+            <li><a href="index.html" class="active">首页</a></li>
+<!--            <li><a href="service.html">服务与资源</a></li>-->
+<!--            <li><a href="index.html#case">案例作品</a></li>-->
+<!--            <li><a href="aboutUs.html">关于我们</a></li>-->
+        </ul>
+    </div>
+</nav>
+
+<!--内容-->
+<section>
+    <!--首页极米传媒-->
+    <article class="index">
+        <div class="swiper-container-banner" style="height: 100%">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img style="width: 100%;height: 100%;" src="img/banner/index_b_1920_1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img style="width: 100%;height: 100%;" src="img/banner/index_b_1920_2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img style="width: 100%;height: 100%;" src="img/banner/index_b_1920_3.png">
+                </div>
+                <div class="swiper-slide">
+                    <img style="width: 100%;height: 100%;" src="img/banner/index_b_1920_4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="prev swiper-button-prev swiper-button-black"></div>
+        <div class="next swiper-button-next swiper-button-black"></div>
+    </article>
+    <!--关于极米-->
+    <article class="about-us">
+        <div class="about-us-text">
+            <div class="about-us-group">
+                <div class="about-us-zh">关于尊艾</div>
+                <div class="about-us-en">about us</div>
+            </div>
+
+        </div>
+        <div class="about-us-item">
+            <div class="content-link"></div>
+            <div class="about-us-content">
+                广州尊艾信息科技有限公司总部位于广州。<br>
+                深刻洞察移动互联网时代的新商业、新零售，新传播的商业价值，构建以 “人”为传播核心的文化与内容生态链运营服务体系。<br>
+                主营业务分别有垂直内容IP孵化、新媒体营销服务、电商供应链整合、艺人网红经纪、数字营销技术、内容电商产业园投资运营，文化创投等。<br>
+                旗下“刺猬自媒体联盟”是国内最具影响力的电商自媒体内容联盟IP，秉承集团在新媒体内容运营的优势和经验，回归用户需求，为时尚服饰、美妆护肤、生活美家、健康美食以及母婴萌宠等品类品牌提供专业且优质的内容传播服务；是2016年阿里巴巴淘宝达人全国TOP1 MCN机构，并与腾讯、头条、抖音、小红书等知名互联网企业建立了长期良好的深度合作伙伴关系。
+            </div>
+            <div>
+                <a href="aboutUs.html#ourRetailer">
+                    <div class="company">
+                        企业文化
+                        <img src="img/ico_culture.png" class="company-logo"></img>
+                    </div>
+                </a>
+                <div class="company company-hover">
+                    尊艾荣誉
+                    <img src="img/ico_honer.png" class="company-logo"></img>
+                    <img src="img/img_c_1.jpg" class="company-certificate">
+                </div>
+                <div class="company company-hover">
+                    尊艾软著
+                    <img src="img/ico_copyright.png" class="company-logo"></img>
+                    <img src="img/img_c_2.jpg" class="company-certificate">
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--服务于资源-->
+<!--    <article class="service">-->
+<!--        <div>-->
+<!--            <div class="service-zh">服务与资源</div>-->
+<!--            <div class="service-en">service and resource</div>-->
+<!--        </div>-->
+<!--        <div class="service-content">广州极米网络科技有限公司成立于2014 年，总部位于广州，本着“全球新媒体品效整合营销服务专家”的发展定位，已经为众多世界500-->
+<!--            强品牌企业和本土发展中企业量身提供了新媒体整合营销策略及方案实施。-->
+<!--        </div>-->
+<!--        <div class="service-item">-->
+<!--            <div class="item-li">-->
+<!--                <div class="item-li-logo">-->
+<!--                    <img src="img/ico_e-commerce.png">-->
+<!--                </div>-->
+<!--                <div class="item-li-title">电商内容运营</div>-->
+<!--                <div class="item-li-text">-->
+<!--                    电商卖的是内容，产品只是内容的售后！-->
+<!--                    极米传媒拥有国内最大的内容生产团队和达人联盟，提供品效内容营销解决方案。-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="item-li">-->
+<!--                <div class="item-li-logo">-->
+<!--                    <img src="img/ico_social.png">-->
+<!--                </div>-->
+<!--                <div class="item-li-title">社交媒体全域营销</div>-->
+<!--                <div class="item-li-text">-->
+<!--                    ROI，是传播的核心追求，新媒体依然是企业重要的品牌曝光、市场获客和用户沉淀的重要方式。-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="item-li">-->
+<!--                <div class="item-li-logo">-->
+<!--                    <img src="img/ico_marketing.png">-->
+<!--                </div>-->
+<!--                <div class="item-li-title">全案数字营销策划</div>-->
+<!--                <div class="item-li-text">-->
+<!--                    营销80%是思想或观念，20%是手段。一个完善的整合营销策略才是将品牌推出去的制胜法宝。-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="item-li">-->
+<!--                <div class="item-li-logo">-->
+<!--                    <img src="img/ico_date.png">-->
+<!--                </div>-->
+<!--                <div class="item-li-title">营销技术化</div>-->
+<!--                <div class="item-li-text">-->
+<!--                    用技术手段解决营销问题，精准化营销，降低营销成本，精准推送，用户画像，个性标签。-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </article>-->
+    <!--经典案例-->
+<!--    <article class="case" id='case'>-->
+<!--        <div class="case-title">经典案例</div>-->
+<!--        <div class="case-title2">Case Study</div>-->
+<!--        <div class="swiper-container">-->
+<!--            <div class="swiper-wrapper">-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(0)">-->
+<!--                                <div class="case-group-item-title">中国南方航空</div>-->
+<!--                                <div class="case-group-item-title2">砍价抢0元机票</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_1.jpg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(1)">-->
+<!--                                <div class="case-group-item-title">电影《魔兽》</div>-->
+<!--                                <div class="case-group-item-title2">奔跑吧魔兽</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_2.jpg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(2, 'VRView')">-->
+<!--                                <div class="case-group-item-title">VR全景购</div>-->
+<!--                                <div class="case-group-item-title2">618夏凉节全景购</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_3.jpg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(3, 'YQSodaWater')">-->
+<!--                                <div class="case-group-item-title">怡泉苏打水</div>-->
+<!--                                <div class="case-group-item-title2">超清爽西柚苏打水教程</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_4.jpg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item ">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(4, 'KMDRadiator')">-->
+<!--                                <div class="case-group-item-title">空美的电暖气</div>-->
+<!--                                <div class="case-group-item-title2">满足你冬日里的幸福感</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_5.jpg">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash;&ndash;&gt;-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(5, 'cocaCola')">-->
+<!--                                <div class="case-group-item-title">可口可乐</div>-->
+<!--                                <div class="case-group-item-title2">鹿音瓶</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_6.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(6, 'BMW')">-->
+<!--                                <div class="case-group-item-title">BMW</div>-->
+<!--                                <div class="case-group-item-title2">530Le</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_8.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(7, 'Pampers')">-->
+<!--                                <div class="case-group-item-title">Pampers</div>-->
+<!--                                <div class="case-group-item-title2">帮宝适拉拉操</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_9.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item ">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(8,'YLMilk')">-->
+<!--                                <div class="case-group-item-title">伊利</div>-->
+<!--                                <div class="case-group-item-title2">花式冲奶粉</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_10.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash;&ndash;&gt;-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item ">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(9)">-->
+<!--                                <div class="case-group-item-title">格力</div>-->
+<!--                                <div class="case-group-item-title2">618家电趴</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_11.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="case-group-item ">-->
+<!--                        <div class="item-bg">-->
+<!--                            <div class="case-group-item-shaw bg-color">-->
+<!--                            </div>-->
+<!--                            <div class="case-group-item-shaw">-->
+<!--                                <img src="img/ico_more.png" onclick="showModel(10)">-->
+<!--                                <div class="case-group-item-title">欧派</div>-->
+<!--                                <div class="case-group-item-title2">天猫超品日</div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="img/example/ex_12.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+<!--            <div class="swiper-button-prev my-button"></div>-->
+<!--            <div class="swiper-button-next my-button"></div>-->
+<!--        </div>-->
+<!--    </article>-->
+    <!--经典案例end-->
+    <!--合作伙伴-->
+<!--    <article class="partner">-->
+<!--        <div class="partner-title">合作伙伴</div>-->
+<!--        <div class="partner-title2">cooperative partner</div>-->
+<!--        <div class="partner-groups news-show">-->
+<!--            <div class="partner-group">-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/alibaba.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Taobao.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/TMAIL.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Tencent.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/JD.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/jrtt.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/douyin.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/P&G.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/cocacola.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/mengniu.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/vip.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/swatch.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Midea.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/yili.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/by_health.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Colgate.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/BRRUN.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Triumph.jpg">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="partner-groups">-->
+<!--            <div class="partner-group">-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/pampers.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/repoice.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/gree.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/liby.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/PANTENE.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Maxwell_House.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/OPPEIN.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/proya.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/ABC.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Hisens.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/NIVEA.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/BW.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/VS.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Oral_B.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Tide.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/head_shoulders.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/LG.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/HEINZ.jpg">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="partner-groups">-->
+<!--            <div class="partner-group">-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/ONLY.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/safeguard.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/DeRUCCI.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/crest.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Dove.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/gillette.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Vinda.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/jack_jones.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/The_squrrels.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/whisper.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/mantholatumn.jpg">-->
+<!--                </div>-->
+<!--                <div class="partner-item">-->
+<!--                    <img src="img/supplier/Kotex.jpg">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class="news-bottom">-->
+<!--                <div class="news-bottom-li partner-bottom-li-margin show" onclick="showLogoList(0)"></div>-->
+<!--                <div class="news-bottom-li partner-bottom-li-margin" onclick="showLogoList(1)"></div>-->
+<!--                <div class="news-bottom-li partner-bottom-li-margin" onclick="showLogoList(2)"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </article>-->
+    <!--新闻洞察-->
+    <!-- 一个article就是一页最后一个div就是分页按钮 -->
+
+<!--    <article class="news news-show">-->
+<!--        <div class="news-title">新闻洞察</div>-->
+<!--        <div class="news-title2">news and insight</div>-->
+<!--        &lt;!&ndash;图片左右滚动&ndash;&gt;-->
+
+<!--        <ul class="swiper-container1">-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2018.09.22</span><br/>-->
+<!--                <span class="news-litle-title">内容电商的春天：如何扬帆破浪，迎战新蓝海？</span><br/>-->
+<!--                <div class="news-litle-content">极米在建立一个以“人”为中心的全生态新渠道，拥有海内外媒体和刺猬自媒体联盟等资源，品牌通过“极米”可以触达海外64个国家400+的华文媒体联盟。</div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="https://mp.weixin.qq.com/s/Q_4frg2HY_tITQILwlr18g">了解更多</a></div>-->
+<!--            </li>-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2018.07.17</span><br/>-->
+<!--                <span class="news-litle-title">广州极米传媒集团荣获P&G “Best MCN Execution”奖项</span><br/>-->
+<!--                <div class="news-litle-content">2018年7月17日，宝洁公司（Procter&Gamble，P&G）Rock Up The NEW ERA年会在广州富力君悦大酒店盛大举行。Hi公社投资方“广州极米传媒集团”在年会上荣获Best MCN Execution奖项。</div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="https://mp.weixin.qq.com/s/q2aDxnD83dPdt_2-oFG-Fg">了解更多</a></div>-->
+<!--            </li>-->
+
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2018.04.02</span><br/>-->
+<!--                <span class="news-litle-title">极米荟友上线啦！内容创作有新平台了</span><br/>-->
+<!--                <div class="news-litle-content">一个免费的内容创作平台，是真的免费哦~。</div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="https://mp.weixin.qq.com/s/bDIwJXwPFT-B5RjZb4a3JQ">了解更多</a></div>-->
+<!--            </li>-->
+<!--        </ul>-->
+
+<!--    </article>-->
+<!--    <article class="news">-->
+<!--        <div class="news-title">新闻洞察</div>-->
+<!--        <div class="news-title2">news and insight</div>-->
+<!--        &lt;!&ndash;图片左右滚动&ndash;&gt;-->
+<!--        <ul class="swiper-container1">-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2018.03.09</span><br/>-->
+<!--                <span class="news-litle-title">合作共赢|极米传媒和众上集团成功举办战略投资签约仪式</span><br/>-->
+<!--                <div class="news-litle-content">2018年3月9日，广州极米网络科技有限公司与广州众上投资控股集团，成功举行战略投资签。</div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="https://mp.weixin.qq.com/s/Qc-BVz8QcgiZt7c60jigYw">了解更多</a></div>-->
+<!--            </li>-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2018.01.03</span><br/>-->
+<!--                <span class="news-litle-title">18年，让你的账号活起来，活下去</span><br/>-->
+<!--                <div class="news-litle-content">-->
+<!--                    淘系的玩法是商品以选品池来定，内容以内容渠道来定。那么，怎么去贯穿人、货、场？实际上人、货、场三位一体，其实是希望商家和商品和内容很好的结合…-->
+<!--                </div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="http://mp.weixin.qq.com/s/EGq_J2AkcvhOKzdjI7gSsg">了解更多</a></div>-->
+<!--            </li>-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2017.12.28</span><br/>-->
+<!--                <span class="news-litle-title">淘宝除了VR Buy+，还有AR Buy+你知道吗？</span><br/>-->
+<!--                <div class="news-litle-content">今年8月淘宝却又静悄悄地推出了AR Buy+，不同于此前VR Buy+的轰动，甚至没有召开发布会，不少人猜测，这难道会是VR-->
+<!--                    Buy+的升级…-->
+<!--                </div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="http://mp.weixin.qq.com/s/z_whwPVBxYZmjxCerp644A">了解更多</a></div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </article>-->
+<!--    <article class="news">-->
+<!--        <div class="news-title">新闻洞察</div>-->
+<!--        <div class="news-title2">news and insight</div>-->
+<!--        &lt;!&ndash;图片左右滚动&ndash;&gt;-->
+<!--        <ul class="swiper-container1">-->
+<!--            <li class="swiper-slide1">-->
+<!--                <span class="datatime">2017.12.20</span><br/>-->
+<!--                <span class="news-litle-title">2018年，对与VR行业的期盼与展望</span><br/>-->
+<!--                <div class="news-litle-content">2017年对VR来说是一个繁忙的一年，VR头显价格下跌，IP VR游戏发布，那么在2018年，我们有哪些期盼呢?</div>-->
+<!--                <br/>-->
+<!--                <div class="news-a-more"><a href="http://mp.weixin.qq.com/s/w7a9obo7SD44FL-NDW_-DA">了解更多</a></div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </article>-->
+<!--    <div class="bottom-button">-->
+<!--        <div class="news-bottom">-->
+<!--            <div class="news-bottom-li news-bottom-li-margin show" onclick="showNewsList(0)"></div>-->
+<!--            <div class="news-bottom-li news-bottom-li-margin" onclick="showNewsList(1)"></div>-->
+<!--            <div class="news-bottom-li news-bottom-li-margin" onclick="showNewsList(2)"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!--新闻end-->
+
+    <!-- 声明 -->
+    <div class="statement-model-icon" id="statementModelIcon"></div>
+    <div class="statement-model" id="statementModel">
+        <div class="statement-model-close" id="statementModelClose"></div>
+        <div class="statement-content"></div>
+    </div>
+    <div class="statement-img" id="statementImg">
+        <div class="statement-close" id="statementImgClose"></div>
+        <div class="statement-img-content">
+            <img src="./img/statement/public_state.jpg">
+        </div>
+    </div>
+    <!--联系我们-->
+    <article class="connect">
+        <div class="connect-logo">
+            <img src="img/ico_logo%20no%20text.png">
+        </div>
+        <div class="connect-text">
+            <div class="connect-text-1">
+                <img class="connect-icon-1" src="img/ico_address.png">
+                <span>地址：广东省广州市海珠区新港中路397号T.I.T创意园自编18栋，邮编：510433</span>
+            </div>
+            <div class="connect-text-3">
+                <img class="connect-icon-3" src="img/ico_email.png">
+                <span>邮箱：service@jimicn.com</span>
+            </div>
+            <div class="connect-text-2">
+                <img class="connect-icon-2" src="img/ico_phone.png">
+                <span>电话：  （020） 89054189&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（020）89054269</span>
+            </div>
+        </div>
+        <div class="connect-code">
+            <img src="img/code_2.jpg">
+            <img src="img/code_1.jpg">
+        </div>
+    </article>
+</section>
+<!--页脚信息-->
+<footer>
+    Copyright 2019 广州尊艾信息科技有限公司 版权所有 <a href="//www.miitbeian.gov.cn" target="_blank">粤ICP备17015282号</a>
+</footer>
+<script src="js/swiper.min.js?v=201809301800"></script>
+<script src="js/index.js?v=201809301800"></script>
+<script src="js/statement.js?v=201809301800"></script>
+<!--<script>-->
+<!--    var _mtac = {};-->
+<!--    (function() {-->
+<!--        var mta = document.createElement("script");-->
+<!--        mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";-->
+<!--        mta.setAttribute("name", "MTAH5");-->
+<!--        mta.setAttribute("sid", "500662477");-->
+<!--        var s = document.getElementsByTagName("script")[0];-->
+<!--        s.parentNode.insertBefore(mta, s);-->
+<!--    })();-->
+<!--</script>-->
+<!--<script>-->
+<!--  var _hmt = _hmt || [];-->
+<!--  (function() {-->
+<!--    var hm = document.createElement("script");-->
+<!--    hm.src = "https://hm.baidu.com/hm.js?4550d3815d81e817d4342792a873e8a7";-->
+<!--    var s = document.getElementsByTagName("script")[0];-->
+<!--    s.parentNode.insertBefore(hm, s);-->
+<!--  })();-->
+<!--</script>-->
+</body>
+</html>
